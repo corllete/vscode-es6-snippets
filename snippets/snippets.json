@@ -1,0 +1,144 @@
+{
+  "import_default": {
+    "prefix": "imp",
+    "body": [
+      "import $2 from '$1';",
+      "$3"
+    ],
+    "description": "Import default module"
+  },
+  "import_named": {
+    "prefix": "impn",
+    "body": [
+      "import { $2 } from '$1';",
+      "$3"
+    ],
+    "description": "Import named"
+  },
+  "import_default_named": {
+    "prefix": "impdn",
+    "body": [
+      "import $2, { $3 } from '$1';",
+      "$4"
+    ],
+    "description": "Import default and named"
+  },
+  "import_global": {
+    "prefix": "impg",
+    "body": [
+      "import '$1';",
+      "$2"
+    ],
+    "description": "Import module without module name"
+  },
+  "import_all_alias": {
+    "prefix": "impa",
+    "body": [
+      "import * as $2 from '$1';",
+      "$3"
+    ],
+    "description": "Import all as alias"
+  },
+  "import_alias": {
+    "prefix": "impal",
+    "body": [
+      "import { $2 as $3 } from '$1';",
+      "$4"
+    ],
+    "description": "Import with alias"
+  },
+  "arrow_func_single_line": {
+    "prefix": "arrs",
+    "body": [
+      "$1 => $2",
+      "$3"
+    ],
+    "description": "Single line, one argument arrow function"
+  },
+  "arrow_func_braket_single_line": {
+    "prefix": "arrsb",
+    "body": [
+      "($1) => $2"
+    ],
+    "description": "Single line, more than one arguments arrow function"
+  },
+  "arrow_func_destruct_single_line": {
+    "prefix": "arrsd",
+    "body": [
+      "({ $1 }) => $2"
+    ],
+    "description": "Single line, argument destruct arrow function"
+  },
+  "arrow_func_multi_line_expr": {
+    "prefix": "arr",
+    "body": [
+      "$1 => (",
+      "  $2",
+      ")$3"
+    ],
+    "description": "Multi-line, return only statement arrow function"
+  },
+  "arrow_func_braket_multi_line_epxr": {
+    "prefix": "arrb",
+    "body": [
+      "($1) => (",
+      "  $2",
+      ")$3"
+    ],
+    "description": "Multi-line, more than one arguments, return only statement arrow function"
+  },
+  "arrow_func_destruct_multi_line_expr": {
+    "prefix": "arrd",
+    "body": [
+      "({ $1 }) => (",
+      "  $2",
+      ")$3"
+    ],
+    "description": "Multi-line, destruct argument(s), return only statement arrow function"
+  },
+  "arrow_func_multi_line_expr_obj": {
+    "prefix": "arro",
+    "body": [
+      "$1 => ({",
+      "  $2",
+      "})$3"
+    ],
+    "description": "Multi-line, return object statement arrow function"
+  },
+  "arrow_func_braket_multi_line_epxr_obj": {
+    "prefix": "arrbo",
+    "body": [
+      "($1) => ({",
+      "  $2",
+      "})$3"
+    ],
+    "description": "Multi-line, more than one arguments, return object statement arrow function"
+  },
+  "arrow_func_destruct_multi_line_expr_obj": {
+    "prefix": "arrdo",
+    "body": [
+      "({ $1 }) => (",
+      "  $2",
+      ")$3"
+    ],
+    "description": "Multi-line, destruct argument(s), return object statement arrow function"
+  },
+  "arrow_func_full": {
+    "prefix": "arrf",
+    "body": [
+      "($1) => {",
+      "  $2",
+      "}$3"
+    ],
+    "description": "Multi-line with body arrow function"
+  },
+  "arrow_func_full_destruct": {
+    "prefix": "arrfd",
+    "body": [
+      "({ $1 }) => {",
+      "  $2",
+      "}$3"
+    ],
+    "description": "Multi-line, destruct argument(s), with body arrow function"
+  }
+}

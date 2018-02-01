@@ -1,0 +1,29 @@
+{
+  "name": "corllete-es6-snippets",
+  "displayName": "Corllete ES6 Snippets",
+  "description": "Javascript ES6 snippets",
+  "version": "0.0.1",
+  "publisher": "myovchev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corllete/vscode-es6-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
