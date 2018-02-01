@@ -4,6 +4,7 @@
   "description": "Javascript ES6 snippets",
   "version": "0.0.1",
   "publisher": "myovchev",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/corllete/vscode-es6-snippets.git"
