@@ -3,6 +3,10 @@ All notable changes to the "corllete-es6-snippets" extension will be documented 
 
 ## [Unreleased]
 
+## [0.0.4] - 2019-09-06
+### Feature
+- Snippets available for typescript (both .ts and .tsx)
+
 ## [0.0.3] - 2018-02-07
 ### Fixed
 - Unnecessary new lines

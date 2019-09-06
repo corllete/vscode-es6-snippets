@@ -7,6 +7,8 @@ in progress.
 
 * Javascript (.js)
 * Javascript React (.jsx, js)
+* Typescript (.ts)
+* Typescript React (.tsx)
 
 ## Snippets
 
@@ -40,9 +42,10 @@ List of all available snippets and names (triggers) for each one of them.
 
 > Tip: To use a snippet in VSCode type the snippet name and hit Tab.
 
-## Release Notes
+## Roadmap
 
-### 0.0.1
+- Separate typsecript (ts) snippets
+- Separate typescript react (tsx)
 
 Initial release of ES6 snippets
 
