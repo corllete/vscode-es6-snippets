@@ -2,7 +2,7 @@
   "name": "corllete-es6-snippets",
   "displayName": "Corllete ES6 Snippets",
   "description": "Javascript ES6 snippets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "images/es6.png",
   "publisher": "myovchev",
   "license": "MIT",
